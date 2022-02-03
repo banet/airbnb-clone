@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+* {
+  padding: 0.5em;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Helvetica Neue", "Helvetica";
+  color: #222;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #333, to top #ff7700);
+}
+main {
+  width: 550px;
+  padding: 0;
+  margin: 0;
+}
+.airbnb-content {
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+nav {
+  height: 70px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+nav > img.logo {
+  margin-right: 2rem;
+}
+.logo {
+  height: 100%;
+  padding-right: 2rem;
+}
+
+.airbnb--main {
+  display: flex;
+  flex-direction: column;
+}
+.airbnb--main img {
+  width: 80%;
+  text-align: center;
+  padding: 26px 77px;
+  display: flex;
+  align-self: center;
+}
+
+.airbnb--info {
+  max-width: 345px;
+}
+.airbnb--info p {
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+
+  position: relative;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.card--info {
+  display: flex;
+  align-items: center;
+}
+.gray {
+  color: #918e9b;
+}
+.bold {
+  font-weight: bold;
+}
+.open-spots {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f5f4f3;
+  padding: 3px 5px;
+}
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
